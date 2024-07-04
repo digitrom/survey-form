@@ -8,7 +8,7 @@
 <body>
 <h1>Survey Form</h1>
 <p>Please, leave feedback about our company </p>
-<form action="" method="post">
+<form action="https://register-demo.freecodecamp.org" method="post">
    <fieldset>
        <label for="name"> Name
            <input required type="text" name="your-name" id="name">
@@ -20,9 +20,48 @@
            <input type="email" name="your-email" id="email">
        </label>
    </fieldset>
-   <fieldset></fieldset>
-   <fieldset></fieldset>
-   <fieldset></fieldset>
+   <fieldset>
+       <legend>How would you rate cooperation with us?</legend>
+       <label for="">
+           <input type="radio" name="rate-us">Excellent! I would recommend you services to friends
+       </label>
+       <label>
+           <input type="radio" name="rate-us">Good but some things should be improved.
+           <p>Tell us, where we should be better:</p>
+           <label for="">
+               <textarea name="" id="" cols="30" rows="3"></textarea>
+           </label>
+       </label>
+           <input type="radio" name="rate-us"> Bad. Never come to you again!
+
+   </fieldset>
+
+   <fieldset>
+       <label for=""> What did you like the most cooperating with us:
+<select>
+    <option>Execution speed</option>
+    <option>Feedback</option>
+    <option>Price</option>
+    <option>Quality</option>
+</select>
+       </label>
+   </fieldset>
+   <fieldset>
+       <legend>Tell us, where we should be better:</legend>
+       <label>
+           <input type="checkbox">Communication
+       </label>
+       <label>
+           <input type="checkbox">Drawing quality
+       </label>
+       <label>
+           <input type="checkbox">Vizualization
+       </label>
+       <label>
+           <input type="checkbox">Design
+       </label>
+   </fieldset>
+    <input type="submit" value="Submit" name="submit">
 </form>
 </body>
 </html>

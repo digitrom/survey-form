@@ -14,3 +14,8 @@ fieldset {
 label {
     display: block;
 }
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
