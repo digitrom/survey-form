@@ -1,5 +1,9 @@
 body {
     background-color: #290046;
+    width: 100%;
+    height: 100vh;
+    font-family: Tahoma;
+    font-size: 16px;
 }
 
 h1, p{
@@ -18,4 +22,17 @@ label {
 input, textarea, select {
     margin: 10px 0 0 0;
     width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0.25em 0;
 }
